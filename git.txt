@@ -1,0 +1,10 @@
+Performing Git Operations
+
+Git Command file
+
+-Genrating Local Repo Author and Email in Git 
+- Use git config --global user.name "ShivaAB"
+- Use git config --global user.email "Shivvaprasadabburi@gmail.com"
+- Go to Home Director use cd
+- Use ls -lrta --- you will find .gitconfig file
+- Do cat .gitconfig -- you will find credentials of author
