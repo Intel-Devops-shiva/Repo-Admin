@@ -26,3 +26,5 @@ Git Command file
 - 
 - If some changes are made in Remote side and commited, simultaniously Local side we made changes, then we cant push to the remote side without pulling remote side changes Viz must match the commits
 - If we make changes in the same file from remote and Local side, then we will face a merge conflict Error
+- Even we are resolving the merge conflict one Extra commit is being generated
+- To over come this we are going to use git stash command
