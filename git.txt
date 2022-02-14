@@ -19,3 +19,5 @@ Git Command file
 - git push origin main --- pushing to the main or Master branch
 - git branch --- to list the branches and green color is working branch
 - git branch -M  branchname --- to modify the branch name
+- git pull origin main --- if any changes are made in the remote side by one developer then remote side commit is not available in the Local side, to match the commits on local side side we use git pull
+- 
