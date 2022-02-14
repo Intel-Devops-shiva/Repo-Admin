@@ -22,4 +22,4 @@ Git Command file
 - git pull origin main --- if any changes are made in the remote side by one developer then remote side commit is not available in the Local side, to match the commits on local side side we use git pull
 - git clone URL --- for cloning the Remote Repo viz copying remote repo to Local machine
 - If some changes are made in Remote side and commited, simultaniously Local side we made changes, then we cant push to the remote side without pulling remote side changes Viz must match the commits
-- 
+- If we make changes in the same file from remote and Local side, then we will face a merge conflict Error
