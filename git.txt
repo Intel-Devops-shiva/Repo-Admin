@@ -24,3 +24,5 @@ Git Command file
 - If some changes are made in one file Remote side and commited, simultaniously Local side we made changes in different file, then we cant push to the remote side from local without pulling remote side changes
 - The above process (24) creates an extra commit for merging to main branch 
 - 
+- If some changes are made in Remote side and commited, simultaniously Local side we made changes, then we cant push to the remote side without pulling remote side changes Viz must match the commits
+- If we make changes in the same file from remote and Local side, then we will face a merge conflict Error
