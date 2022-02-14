@@ -26,5 +26,7 @@ Git Command file
 - 
 - If some changes are made in Remote side and commited, simultaniously Local side we made changes, then we cant push to the remote side without pulling remote side changes Viz must match the commits
 - If we make changes in the same file from remote and Local side, then we will face a merge conflict Error
+- After eliminating conflict again an extra commit is created, if this is repeated with hundreds of delopers then user readability will miss
+- To over come extra commit we use git Stash Command
 - We use stash before adding and commiting the local changes
-- If we pull withput staching we will see an error please clean the working tree 
+- If we pull without staching we will see an error please clean the working tree 
