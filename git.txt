@@ -30,3 +30,7 @@ Git Command file
 - To over come extra commit we use git Stash Command
 - We use stash before adding and commiting the local changes
 - If we pull without staching we will see an error please clean the working tree 
+- If we pull without staching we will see an error please clean the working tree or clean your local changes
+- After Stashing we can be able to pull the Remote changes
+- Then use git stash apply --- to apply local changes
+- Now we will see Merge Confilct and we will resolve
