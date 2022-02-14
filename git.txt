@@ -34,3 +34,10 @@ Git Command file
 - After Stashing we can be able to pull the Remote changes
 - Then use git stash apply --- to apply local changes
 - Now we will see Merge Confilct and we will resolve
+- In this process we are not creating any extra commit
+- Process : Modify file from remote and Local --> Use git pull ---> git Stash ----> git pull ---->git stash apply ---->git add ----> git commit ----> git push
+- Instead of concentrating on commands we are using Banching Stratergy to concentrate on development
+- git branch branch name ---- to create a new branch
+- git checkout branchname --- to change the branch
+- git fetch --- used to show all the brances created without using checkout
+- git branch ---- used to show the brances after using checkout
