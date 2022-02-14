@@ -8,3 +8,14 @@ Git Command file
 - Go to Home Director use cd
 - Use ls -lrta --- you will find .gitconfig file
 - Do cat .gitconfig -- you will find credentials of author
+- Perform git init --- to initialise local Repository
+- git status --- to find the status of the files created
+- git add file name or git add . (for all files) --- to move the files to staged area
+- git commit -m "Message" - Commiting files on Local Repository
+- git remote add origin URL : SSH/HTTPs --- for connectig to Remote Repository, uses protocol TCP 22 and HTTPS 443
+- ssh-keygen --- to crate public private key
+- cd to move to home and do cd .ssh/ and ls -lrta to find the keys
+- cat idrsa.pub --- to view the kay and copy the key, on github settings ---> Developer Settings--> SSH and GCP
+- git push origin main --- pushing to the main or Master branch
+- git branch --- to list the branches and green color is working branch
+- git branch -M  branchname --- to modify the branch name
