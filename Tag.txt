@@ -1,0 +1,5 @@
+If there are lot of commits like 1001 to 1999 but only upto commit Id 1888 is stable and all the above commits are not required for release
+Mening Head is pointing to 1999 and we have to move the Head to Stable version 1888
+Then use git checkout Coomitid i.e git checkout 1888
+Since we are unable remeber all these commit Id's we will use alias name unsin git tag aliasname commitid to be pointed
+i.e git tag rele2 1888

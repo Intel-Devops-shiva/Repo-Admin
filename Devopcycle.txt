@@ -1,0 +1,16 @@
+In Real Time Scenario we will be working with multiple Developers
+Each and every developer will be assigned seperate branches to work on
+Example Feature1 and Feature2 are Dev branches
+Now we create a Dev branch for allowing developers to raise pull request to Dev branch to Merge thier code 
+Before merging Leads will Review the code and if it is ok then they will approve the Pull request, permissions will be found in Branches tab, also in side pane of Pull request window
+Once approved Merged to the Dev branch and then moved to Dev Environment
+If Every thing is tested and fells perfect then moved on to to release branch by raising a pull request from Dev to Rele1
+From Rele1 it is moved to Stageed or Test Environment if every thing is ok then a pull request is raised from Rele1 to main Branch
+Once merged with main then the code is sent to Prod Environment
+NOTE: From Step 4 to Step 9 we use only Merge and Commit Option 
+If there is any error in the prod environment then we create a Hotfix branch instead going back to whole process like main,rele1,Dev etc
+We will raise a pull request from main to Hotfix branch and resolve the error and raise pull request from Hotfix to Main branch and then we will move to prod environment
+After completion of Rele1 if there are any updates then we need to release 2 nd version, the second version obviously should contain Rele1, also the changes made in Hotfix branch 
+For this case we need to roll back as we need to upadte the commits from HotFix
+Create Rele2 and raise a pullrequest from main to Rele2 and use option Rebase and Commit, this option will pull only the updated commits or changes
+Rebase won't create any extra commit as Merge does
